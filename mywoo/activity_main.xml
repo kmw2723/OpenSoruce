@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+//Chronometer 위젯을 사용하여 제작
+    <Chronometer
+        android:id="@+id/chronometer_view"
+        android:layout_gravity="center"
+        android:textSize="100sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+//시작 버튼 제작
+    <Button
+        android:id="@+id/start_button"
+        android:textSize="20sp"
+        android:text="시작"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+//정지 버튼 제작
+    <Button
+        android:id="@+id/stop_button"
+        android:textSize="20sp"
+        android:text="정지"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+//리셋 버튼 제작
+    <Button
+        android:id="@+id/reset_button"
+        android:textSize="20sp"
+        android:text="리셋"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
